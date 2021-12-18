@@ -1,6 +1,8 @@
-sex = input('[k]obieta czy [m]ezczyzna ?:')
-if sex == 'k':
-    print('mozesz uzywac aplikacje Droga Pani')
+continent = input('[U]SA czy [E]UROPA ?:')
+if continent == 'U':
+    print('mozesz uzywac aplikacje USA')
+if continent == 'E' :
+    print('mozesz uzywac aplikacji EUROPA')
     wiek = input("Podaj wiek: ")
     # Sprawdzamy, czy wiek jest złożony z cyfr
     if wiek.isdigit() == False:
@@ -12,7 +14,7 @@ if sex == 'k':
         print("Jesteś już za stary/a na alkohol")
     else:
         exit('jesteś za młody/a!, w USA wymagamy 21 lat')
-elif sex =='m':
+elif continent =='m':
     print('Ta aplikacja nie jest dla facetow, sorry!')
 
 else:
